@@ -30,7 +30,10 @@ character2number={'a' : '2',
 
 the_number = ''
 
-for each_character in the_word:
-    the_number += character2number[each_character.lower()]
-    
+for each_character in the_word:    
+    if each_character in character2number.keys(): 
+        the_number += character2number[each_character.lower()]
+    else: 
+        the_number += each_character
+     
 print (the_number)
