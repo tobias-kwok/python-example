@@ -1,4 +1,4 @@
-the_word = input("Please give a word, no caps please. ")
+the_word = input("Please give a word. ")
 print ("Now I shall change", the_word," into a number on the dialpad")
     
 character2number={'a' : '2', 
