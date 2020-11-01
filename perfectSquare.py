@@ -6,7 +6,7 @@ num_of_correct = 0
 
 for i in range(10):
     square_or_squareroot = random.randint(0, 1)
-    number = random.randint(1, 39)
+    number = random.randint(1, 51)
     number_square = numpy.square(number)
     
     #print("The number picked is", number)
